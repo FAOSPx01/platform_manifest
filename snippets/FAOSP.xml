@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="faosp"
+          fetch="https://github.com/FAOSPx01/"
+          revision="android-V"/>
+
+<!-- FAOSP repositories -->
+<project path="vendor/aosp" name="android_vendor_aosp" remote="faosp" />
+
+</manifest>
