@@ -1,0 +1,17 @@
+FAOSP (Fork Android Open Source Project)
+========================================
+
+Getting started
+---------------
+
+To get started with AOSP, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+Initialize the repository:
+```
+repo init -u https://github.com/FAOSPx01/platform_manifest.git -b android-V --git-lfs --depth=1
+```
+Then to sync up:
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
